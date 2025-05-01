@@ -1,7 +1,3 @@
-Here's your content formatted in **Markdown** so it can be added to your GitHub repository (e.g., as a `README.md` file or documentation page):
-
----
-
 # Practical 01 – Introduction to Java Programming  
 **Date:** 26.03.2025  
 **Student:** 2022/ICT/102 FIRTHOUS S.T  
@@ -9,25 +5,25 @@ Here's your content formatted in **Markdown** so it can be added to your GitHub 
 
 ---
 
-## 📘 Program 1: MySecondClass
+##  Program 1: MySecondClass
 
-### 🎯 Objectives:
+###  Objectives:
 To learn how to pass and use command-line arguments in Java.
 
-### 📚 Theory/Concept:
+###  Theory/Concept:
 Command-line arguments allow users to send input values while starting the Java program.  
 These values are stored in the `args` array of the `main` method.
 
-### 🧠 Algorithm:
+###  Algorithm:
 1. Create a class `MySecondClass` with a `main` method.
 2. Access values from `args[0]`, `args[1]`, and `args[2]`.
 3. Print each argument.
 4. Print extra messages if needed.
 
-### 💻 Source Code:
+###  Source Code:
 [View on GitHub](https://github.com/FirthousThasnim/IT1214-Practical-Record/tree/main/Session_01/Lession_01)
 
-### 🔢 Sample Input & Output:
+###  Sample Input & Output:
 **Command:**
 ```bash
 java MySecondClass zero one two Hi Ann
@@ -40,33 +36,33 @@ The third argument is two
 Hi Ann
 ```
 
-### 🔍 Observation:
+###  Observation:
 The program successfully printed each command-line argument passed while running.
 
-### ✅ Conclusion:
+###  Conclusion:
 Command-line arguments can be accessed in Java programs easily using the `args` array.
 
 ---
 
-## 📘 Program 2: App and P3.java
+##  Program 2: App and P3.java
 
-### 🎯 Objectives:
+###  Objectives:
 To understand how multiple classes interact and call methods from each other.
 
-### 📚 Theory/Concept:
+###  Theory/Concept:
 In Java, one class can create objects of another class and call its methods.  
 We can group different functionalities into separate classes.
 
-### 🧠 Algorithm:
+###  Algorithm:
 1. Create two classes (e.g., `ClassOne` and `ClassTwo`).
 2. Write a method inside each class to print some values.
 3. Create a third class `App` that creates objects of both classes and calls their methods.
 4. Compile all classes and run `App`.
 
-### 💻 Source Code:
+###  Source Code:
 [View on GitHub](https://github.com/FirthousThasnim/IT1214-Practical-Record/tree/main/Session_01/Lession_02)
 
-### 🔢 Sample Input & Output:
+###  Sample Input & Output:
 **Command:**
 ```bash
 java App
@@ -79,32 +75,32 @@ From Class Two a =20
 From Class Two a =30
 ```
 
-### 🔍 Observation:
+###  Observation:
 The `App` class could access methods from both `ClassOne` and `ClassTwo` successfully.
 
-### ✅ Conclusion:
+###  Conclusion:
 Java allows creating objects from other classes to organize and reuse code easily.
 
 ---
 
-## 📘 Program 3: MyFirstClass
+##  Program 3: MyFirstClass
 
-### 🎯 Objectives:
+###  Objectives:
 To practice basic output in Java and printing on the same line and new line.
 
-### 📚 Theory/Concept:
+###  Theory/Concept:
 - `print()` displays text on the same line.  
 - `println()` displays text and moves to the next line.
 
-### 🧠 Algorithm:
+###  Algorithm:
 1. Create a class `MyFirstClass` with a `main` method.
 2. Use `System.out.print()` for same-line text.
 3. Use `System.out.println()` for next-line text.
 
-### 💻 Source Code:
+###  Source Code:
 [View on GitHub](https://github.com/FirthousThasnim/IT1214-Practical-Record/tree/main/Session_01/Lession_03)
 
-### 🔢 Sample Input & Output:
+###  Sample Input & Output:
 **Command:**
 ```bash
 java MyFirstClass
@@ -115,12 +111,8 @@ This is IT2141 Practical session 1This prints next in a new line
 This is a new line
 ```
 
-### 🔍 Observation:
+###  Observation:
 The program correctly printed text first on the same line and then in a new line.
 
-### ✅ Conclusion:
+###  Conclusion:
 Using `print()` and `println()`, we can control how text is shown in Java programs.
-
----
-
-Would you like me to help you write a README file for the full repository too?
